@@ -10,6 +10,7 @@ export default class Hero extends Component {
       children,
       size,
       image,
+      position,
       varient,
       ...remainingProps,
     } = this.props;
@@ -24,6 +25,7 @@ export default class Hero extends Component {
 
     var backgroundImage = {
       backgroundImage: 'url(' + image + ')',
+      backgroundPosition: position,
     }
 
     return (

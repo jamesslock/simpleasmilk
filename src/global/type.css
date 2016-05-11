@@ -7,3 +7,12 @@
   font-size: --font-size-base;
   line-height: 1.25rem;
 }
+
+blockquote {
+    font-size: 52px;
+    line-height: 1.4em;
+    font-weight: bold;
+    padding: 0;
+    margin: 60px 0;
+    text-align: center;
+}

@@ -1,9 +1,9 @@
 .root {
-  
+
 }
 
 .large {
-  min-height: 500px;
+  min-height: 640px;
 }
 .image {
   background-size: cover;

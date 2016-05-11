@@ -2,15 +2,22 @@
     font-size: 16px;
     text-transform: uppercase;
     margin: 0 0 10px 0;
-    animation: fadein 2s;
+    animation: fadein 0.8s;
+    animation-fill-mode: both;
 }
 .heroDescription {
     font-size: 54px;
     line-height: 1.2;
     margin: 0;
-    animation: fadein 2s;
+    animation: fadein 0.8s;
 }
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+        transform: translate3d(-60px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
