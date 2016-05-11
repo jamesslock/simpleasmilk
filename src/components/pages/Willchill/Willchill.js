@@ -36,7 +36,7 @@ export default class Willchill extends Component {
                 </Section>
             </Hero>
 
-            <Hero size="huge" varient="image" position="bottom left" image="/img/hero.jpg" className={helpers.verticalAlign}>
+            <Hero size="huge" varient="image" position="top center" image="/img/hero.jpg" className={helpers.verticalAlign}>
                 <Overlay />
                 <Section size="large" className={helpers.textCenter}>
                     <img src="/img/willchill_logo.svg" />
