@@ -1,0 +1,10 @@
+.root {
+  
+}
+
+.large {
+  min-height: 500px;
+}
+.image {
+  background-size: cover;
+}
