@@ -10,7 +10,7 @@ import Lettering from '../../atoms/Lettering/Lettering.react.js';
 
 // Styles
 import styles from './Willchill.css';
-import m from 'global/modifiers';
+import helpers from 'global/helpers';
 
 export default class Willchill extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class Willchill extends Component {
                 ]}
             />
 
-            <Hero size="large">
+            <Hero size="large" className={helpers.verticalAlign}>
                 <Section size="large">
                     <Container size="small">
                         <h1 className={styles.heroTitle}>WillChill</h1>
