@@ -43,7 +43,7 @@ try {
             <html lang="en-us">
               <head>
                 <meta charset="utf-8">
-                <title>Strtkt – we so startup m8s</title>
+                <title>Simple as Milk</title>
                 <link rel="shortcut icon" href="/favicon.ico">
                 ${styleTag}
               </head>
