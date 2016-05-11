@@ -16,7 +16,7 @@ module.exports = (
 			<IndexRoute component={Homepage} />
 		</Route>
 
-		<Route path="/projects/willchill" component={Container}>
+		<Route path="/willchill" component={Container}>
 			<IndexRoute component={Willchill} />
 		</Route>
 	</Router>

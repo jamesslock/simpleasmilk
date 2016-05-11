@@ -48,6 +48,7 @@ Hero.propTypes = {
     'small',
     'medium',
     'large',
+    'huge',
     'full',
   ]),
   varient: PropTypes.oneOf([

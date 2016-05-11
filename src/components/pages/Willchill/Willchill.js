@@ -6,6 +6,7 @@ import Markdown from 'react-remarkable';
 import Button from '../../atoms/Button/Button.react.js';
 import Container from '../../atoms/Container/Container.react.js';
 import Hero from '../../atoms/Hero/Hero.react.js';
+import Overlay from '../../atoms/Overlay/Overlay.react.js';
 import Section from '../../atoms/Section/Section.react.js';
 import Lettering from '../../atoms/Lettering/Lettering.react.js';
 
@@ -35,7 +36,12 @@ export default class Willchill extends Component {
                 </Section>
             </Hero>
 
-            <Hero size="large" varient="image" position="bottom left" image="/img/hero.jpg"></Hero>
+            <Hero size="huge" varient="image" position="bottom left" image="/img/hero.jpg" className={helpers.verticalAlign}>
+                <Overlay />
+                <Section size="large" className={helpers.textCenter}>
+                    <img src="/img/willchill_logo.svg" />
+                </Section>
+            </Hero>
 
             <Section size="large">
                 <Container size="small">

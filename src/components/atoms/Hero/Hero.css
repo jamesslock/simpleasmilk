@@ -1,9 +1,12 @@
 .root {
-
+    position: relative;
 }
 
 .large {
   min-height: 640px;
+}
+.huge {
+    min-height: 780px;
 }
 .image {
   background-size: cover;
