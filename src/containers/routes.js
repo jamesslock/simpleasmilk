@@ -6,23 +6,13 @@ import React from "react";
 import {Router, Route, IndexRoute} from "react-router";
 
 // Marketing site
-import SiteContainer from "./SiteContainer";
-import Homepage from 'components/Site/Homepage/Homepage';
-
-// Application
-import AppContainer from "./AppContainer";
-import MainScreen from 'components/App/MainScreen/MainScreen';
+import Container from "./Container";
+import Homepage from 'components/pages/Homepage/Homepage';
 
 module.exports = (
 	<Router>
-		{/*Marketing site*/}
-		<Route path="/" component={SiteContainer}>
+		<Route path="/" component={Container}>
 			<IndexRoute component={Homepage} />
-		</Route>
-
-		{/*Application*/}
-		<Route path="/app" component={AppContainer}>
-			<IndexRoute component={MainScreen} />
 		</Route>
 	</Router>
 );
