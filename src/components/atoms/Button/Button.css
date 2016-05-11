@@ -1,0 +1,109 @@
+:root {
+  /* Colors */
+  --colorGreen: #95d06d;
+  --colorRed: #d06d6d;
+  --colorBlue: #41c1c8;
+  --colorBlueDark: #00587f;
+  --colorOrange: #f7931d;
+  --colorYellow: #d0ca6d;
+  --colorGray: #979797;
+  --colorGrayDark: #2F2F2F;
+  --colorGrayLight: #e7e7e7;
+  --colorGrayLightest: #FAFAFA;
+
+  /* Color names */
+  --brandPrimary: var(--colorBlue);
+  --brandSecondary: var(--colorBlueDark);
+  --brandTertiary: var(--colorOrange);
+  --brandPositive: var(--colorPositive);
+  --brandNegative: var(--colorRed);
+
+  /* Buttons */
+  --buttonFontSize: 16px;
+  --buttonBorderRadius: 4px;
+
+  --buttonColor: var(--colorGrayLightest);
+  --buttonColorPrimary: white;
+  --buttonColorLink: var(--colorGray);
+
+  --buttonBackground: var(--colorGray);
+  --buttonBackgroundPrimary: var(--colorPrimary);
+
+  --buttonPadding: 1.5em;
+  --buttonPaddingSmallest: 0.5em;
+  --buttonPaddingSmall: 1em;
+  --buttonPaddingLarge: 2em;
+  --buttonPaddingHuge: 3em;
+
+}
+
+.root {
+  /* Button Reset */
+  -webkit-font-smoothing: antialiased;
+  appearance: none;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: inherit;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  text-decoration: none;
+  position: relative;
+
+  /* Button Base Styles */
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--buttonColor);
+  background-color: var(--buttonBackground);
+
+  /* Button Base Dimentions */
+  padding: 0 var(--buttonPadding);
+  font-size: var(--buttonFontSize);
+  line-height: calc(var(--buttonPadding) * 2 + 1px);
+
+  &:hover {
+      transition: background-color 0.2s ease-in-out,
+                  color 0.2s ease-in-out,
+                  border 0.2s ease-in-out;
+      background-color: color(var(--buttonBackground) w(- 20%));
+  }
+}
+
+.primary {
+  background-color: var(--brandPrimary);
+
+  &:hover {
+    background-color: color(var(--brandPrimary) w(- 20%));
+  }
+}
+.secondary {
+  background-color: var(--brandSecondary);
+}
+
+/* Varients */
+.outline {
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  line-height: 3.75em;
+}
+.link {
+  text-transform: none;
+  background-color: transparent;
+  color: var(--colorGray);
+  border: 0;
+
+  &:hover {
+    color: color(var(--colorGrayDark) w(- 20%));
+    background-color: transparent;
+  }
+
+  &.active {
+    color: var(--colorGrayDark);
+  }
+}
