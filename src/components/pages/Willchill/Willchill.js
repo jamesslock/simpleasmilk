@@ -62,7 +62,7 @@ export default class Willchill extends Component {
                 </Section>
 
                 <Section size="large">
-                    <img src="/img/willchill-inaction.jpg" />
+                    <img class="imageFull" src="/img/willchill-inaction.jpg" />
                 </Section>
             </Container>
         </div>
