@@ -1,0 +1,11 @@
+.root {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.square {
+    height: 0;
+    padding-top: 100%;
+}
