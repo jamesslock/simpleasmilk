@@ -12,3 +12,6 @@
     width: 100%;
 	flex-grow: 1;
 }
+.flex-14 {
+    flex: 1.4;
+}

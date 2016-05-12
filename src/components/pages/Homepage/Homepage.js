@@ -8,10 +8,13 @@ import GridRow from '../../atoms/GridRow/GridRow.react.js';
 import GridColumn from '../../atoms/GridColumn/GridColumn.react.js';
 import GridItem from '../../atoms/GridItem/GridItem.react.js';
 import GridContent from '../../atoms/GridContent/GridContent.react.js';
+import Overlay from '../../atoms/Overlay/Overlay.react.js';
+import Section from '../../atoms/Section/Section.react.js';
 
 // Styles
 import styles from './Homepage.css';
 import m from 'global/modifiers';
+import helpers from 'global/helpers';
 
 export default class Homepage extends Component {
   render() {
@@ -26,17 +29,23 @@ export default class Homepage extends Component {
 
             <Container size="full">
                 <GridRow>
-                    <GridColumn>
+                    <GridColumn flex="flex-14">
                         <GridItem>
-                            <GridContent style="square" varient="image" image="/img/hero.jpg" />
+                            <GridContent
+                                style="square"
+                                varient="image"
+                                type="caseStudy"
+                                to="/willchill"
+                                image="/img/willchill.png"
+                            />
                         </GridItem>
                     </GridColumn>
                     <GridColumn type="matchHeight">
                         <GridItem>
-                            <GridContent varient="image" image="/img/hero.jpg" />
+                            <GridContent varient="image" image="/img/high-five.png" />
                         </GridItem>
                         <GridItem>
-                            <GridContent varient="image" image="/img/hero.jpg" />
+                            <GridContent varient="image" image="/img/crew-animation.gif" />
                         </GridItem>
                     </GridColumn>
                 </GridRow>

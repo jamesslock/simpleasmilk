@@ -9,6 +9,7 @@ export default class GridColumn extends Component {
       className,
       children,
       type,
+      flex,
       ...remainingProps,
     } = this.props;
 
@@ -16,6 +17,7 @@ export default class GridColumn extends Component {
       css.root,
       css ? css[css] : null,
       type ? css[type] : null,
+      flex ? css[flex] : null,
       className,
     ].join(' ');
 
@@ -38,5 +40,8 @@ GridColumn.propTypes = {
   className: PropTypes.string,
   type: PropTypes.oneOf([
     'matchHeight',
+  ]),
+  flex: PropTypes.oneOf([
+    'flex-14',
   ]),
 };

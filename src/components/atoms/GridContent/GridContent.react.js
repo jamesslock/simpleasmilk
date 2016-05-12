@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import { Link } from 'react-router';
 
 import css from './GridContent.css';
 
@@ -9,6 +10,7 @@ export default class GridContent extends Component {
       className,
       children,
       style,
+      type,
       position,
       image,
       ...remainingProps,
@@ -26,17 +28,24 @@ export default class GridContent extends Component {
       backgroundPosition: position,
     }
 
-    return (
+    return type === 'caseStudy' ?
+        <Link
+            className={classNames}
+            style={backgroundImage}
+            {...remainingProps}
+        >
+            {children}
+        </Link>
 
-      <div
-        className={classNames}
-        style={backgroundImage}
-        {...remainingProps}
-      >
-        {children}
-      </div>
+        :
 
-    )
+        <div
+            className={classNames}
+            style={backgroundImage}
+            {...remainingProps}
+        >
+            {children}
+        </div>
 
   }
 };
