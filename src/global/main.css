@@ -13,7 +13,9 @@
 }
 img {
 	max-width: 100%;
+	height: auto;
 }
 .imageFull {
 	width: 100%;
+	height: auto;
 }
