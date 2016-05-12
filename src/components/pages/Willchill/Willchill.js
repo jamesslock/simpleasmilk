@@ -30,7 +30,7 @@ export default class Willchill extends Component {
                     <Container size="small">
                         <h1 className={styles.heroTitle}>WillChill</h1>
                         <Lettering className={styles.heroDescription} tagName="h1">
-                          Keeping friends connected by scheduling chill times.
+                          We believe that good, lasting relationships are built on quality time spent together.
                         </Lettering>
                     </Container>
                 </Section>
@@ -46,21 +46,16 @@ export default class Willchill extends Component {
 
                 <Section size="large">
                     <Container size="small">
-                        <p>I was called from these reflections by the sight of a freckled woman with yellow hair and a yellow gown, standing in the porch of the inn, under a dull red lamp swinging there, that looked much like an injured eye, and carrying on a brisk scolding with a man in a purple woollen shirt.</p>
+                        <p>WillChill is a fun app that simplifies your social schedule. Enter your free time each week, pick the friends you want to hang out with, and we'll take care of finding the best time for you to meet up. Stop scheduling, start chilling.</p>
+                        <p>With WillChill, you select the times that work for you, then swipe through your friends to tell us who you'd like to hang with. When you and a friend want to hang out, we'll let you know and schedule it for you two! You can figure out the specifics using our built-in chat.</p>
+                        <blockquote>"We believe that good, lasting relationships are built on quality time spent together."</blockquote>
 
-                        <p>"Get along with ye," said she to the man, "or I'll be combing ye!"</p>
+                    </Container>
+                </Section>
 
-                        <blockquote>"Come on, Queequeg," said I, "all right. There's Mrs. Hussey."</blockquote>
-
-                        <p>And so it turned out; Mr. Hosea Hussey being from home, but leaving Mrs. Hussey entirely competent to attend to all his affairs. Upon making known our desires for a supper and a bed, Mrs. Hussey, postponing further scolding for the present, ushered us into a little room, and seating us at a table spread with the relics of a recently concluded repast, turned round to us and said&mdash;"Clam or Cod?"</p>
-
-                        <p>"What's that about Cods, ma'am?" said I, with much politeness.</p>
-
-                        <p>"Clam or Cod?" she repeated.</p>
-
-                        <p>"A clam for supper? a cold clam; is THAT what you mean, Mrs. Hussey?" says I, "but that's a rather cold and clammy reception in the winter time, ain't it, Mrs. Hussey?"</p>
-
-                        <p>But being in a great hurry to resume scolding the man in the purple Shirt, who was waiting for it in the entry, and seeming to hear nothing but the word "clam," Mrs. Hussey hurried towards an open door leading to the kitchen, and bawling out "clam for two," disappeared.</p>
+                <Section size="large">
+                    <Container size="full">
+                        <img src="/img/willchill-wireframes.png" />
                     </Container>
                 </Section>
             </Container>
