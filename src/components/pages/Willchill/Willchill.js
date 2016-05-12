@@ -40,7 +40,7 @@ export default class Willchill extends Component {
                 <Hero size="huge" varient="image" position="top center" image="/img/hero.jpg" className={helpers.verticalAlign}>
                     <Overlay />
                     <Section size="large" className={helpers.textCenter}>
-                        <img src="/img/willchill_logo.svg" />
+                        <img src="/img/willchill_logo.svg" width="480px"/>
                     </Section>
                 </Hero>
 
@@ -54,9 +54,15 @@ export default class Willchill extends Component {
                 </Section>
 
                 <Section size="large">
-                    <Container size="full">
-                        <img src="/img/willchill-wireframes.png" />
+                    <Container size="small">
+                        <h1>Wireframes</h1>
+                        <p>One through the initial login & matching with a friend, the more complex task of messaging and how group's would work.</p>
                     </Container>
+                    <img src="/img/willchill-wireframes.png" />
+                </Section>
+
+                <Section size="large">
+                    <img src="/img/willchill-inaction.jpg" />
                 </Section>
             </Container>
         </div>
