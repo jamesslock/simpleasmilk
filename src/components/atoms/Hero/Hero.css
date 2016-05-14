@@ -8,6 +8,12 @@
 .huge {
     min-height: 780px;
 }
+.full {
+    height: 100vh;
+}
 .image {
   background-size: cover;
+}
+.primary {
+    background-color: #eb3552;
 }

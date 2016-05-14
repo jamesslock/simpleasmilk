@@ -53,6 +53,7 @@ Hero.propTypes = {
   ]),
   varient: PropTypes.oneOf([
     'image',
+    'primary',
   ]),
   image: PropTypes.string,
 };

@@ -10,6 +10,16 @@
   padding-right: 15px;
   clear: fix;
 }
+.root:before,
+.root:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.root:after {
+    clear: both;
+}
+
+
 .medium {
   max-width: 960px;
 }

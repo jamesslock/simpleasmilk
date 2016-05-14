@@ -21,3 +21,7 @@
         transform: none;
     }
 }
+
+.halves {
+  lost-column: 1/2;
+}

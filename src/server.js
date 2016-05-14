@@ -43,7 +43,15 @@ try {
             <html lang="en-us">
               <head>
                 <meta charset="utf-8">
-                <title>Simple as Milk</title>
+                <title>Simple as Milk - A User Experience & Design Focused Agency</title>
+                <meta name="description" content="A design focused agency working with a variety of clients from single person startups, YC Alumni and VC backed startups, right through to Fortune 500's."/>
+
+                <meta name="og:title" content="Simple as Milk - A User Experience & Design Focused Agency"/>
+
+                <meta name="copyright"content="Simple as Milk Limited">
+                <meta name="language" content="English">
+                <meta name="robots" content="index,follow" />
+
                 <link rel="shortcut icon" href="/favicon.ico">
                 ${styleTag}
               </head>
